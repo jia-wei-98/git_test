@@ -1,0 +1,218 @@
+{
+	"irReferenceNo": "JWTEST25SEP230000005",
+	"groupedIRReferenceNoList": [],
+	"irReceivedDate": "20230925",
+	"irNotificationType": "OD",
+	"InformantDetails": {
+		"IdTypeCd": "N",
+		"IdNo": "S6312583J",
+		"FullName": "Testing 25 SEP #5",
+		"ContactNo": "88888888",
+		"EmailAddr": "jia.wei.liu@accenture.com",
+		"UserTypeCd": "DE"
+	},
+	"EmployerDetails": {
+		"EmployerUEN": "56781234X",
+		"EmployerName": "EMPLOYER 88",
+		"CoyRegisteredAddr": {
+			"AddressTypeCd": "S",
+			"IsLocalAddrInd": "Y",
+			"AddrLine1Txt": "Hi im cool",
+			"PostalCd": "123456",
+			"StreetName": "NORTH BRIDGE RD",
+			"BuildingName": "RAFFLES CITY TOWER",
+			"BlockHouseNo": "250",
+			"FloorNo": "35",
+			"UnitNo": "00"
+		}
+	},
+	"OccupierDetails": {
+		"OccupierUEN": "12345678X",
+		"OccupierName": "Building Owner 123"
+	},
+	"AccidentDetails": {
+		"pyTempDateTime": "20230505 01:00:00",
+		"AccidentTypeDesc": "Slips and Trips",
+		"AccidentLocationCd": "2",
+		"AccidentLocationCdValue": "At premises under the management/control of your organisation",
+		"AccidentAddressID": "1138118",
+		"AccidentAddr": {
+			"AccidentAddressTypeCd": "S",
+			"IsLocalAddrInd": "Y",
+			"AddrLine1Txt": "Address Line Number 1 damn",
+			"PostalCd": "123456",
+			"StreetName": "Street#1",
+			"BuildingName": "Building #1",
+			"BlockHouseNo": "123A",
+			"FloorNo": "12",
+			"UnitNo": "123"
+		}
+	},
+	"workplaceNo": "12345678A9012",
+	"workplaceName": "ACCENTURE OFFICE",
+	"VictimList": [{
+			"CaseDetails": {
+				"victimID": "111222",
+				"insurancePolicyNumber": "IR-API1-01",
+				"WICAInsurerInd": "T",
+				"RegistrationTypeCd": "OD-TI"
+			},
+			"CustomerDetails": {
+				"IdTypeCd": "F",
+				"IdNo": "F7635000X",
+				"FullName": "EMPLOYEE 25-SEP #4",
+				"BirthDt": "20060101",
+				"GenderCd": "M",
+				"PreferredLanguageCd": "English",
+				"ContactNo": "81230123",
+				"EmailAddr": "hi@hi.hi"
+			},
+			"RegisteredAddr": {
+				"AddressTypeCd": "S",
+				"IsLocalAddrInd": "Y",
+				"AddrLine1Txt": "Address Line Number 2 damn",
+				"PostalCd": "087123",
+				"StreetName": "Geylang Bharu Lane",
+				"BuildingName": "MOM School Officer",
+				"BlockHouseNo": "3A",
+				"FloorNo": "03",
+				"UnitNo": "123"
+			},
+			"ClaimDetails": {
+				"Initial": {
+					"WICAInsurerRoutingInd": "Y",
+					"CommencementOfEmpDt": "20230925",
+					"AverageMonthlyEarningsAmt": "2300",
+					"MedicalLeaveDur": "3",
+					"LightDutyDur": "2",
+					"Hosptialised24HoursInd": "N",
+					"OccupationalDiseaseDesc": "This is the description of the occupational disease",
+					"ODConsultationDate": "20230924",
+					"OccupationTxt": "PROFESSIONAL SLEEP TESTER",
+					"MedicalInstitutionList": [{
+						"MedicalInstitutionUEN": "200717564H",
+						"MedicalInstitutionName": "KHOO TECK PUAT HOSPITAL"
+					}],
+					"VictimNatureofInjuryList": [{
+							"VictimNatureofInjuryInfo": {
+								"VictimNatureofInjuryCd": "CUT_BRUISES",
+								"InjuredBodyPartsList": [{
+									"InjuredBodyPartCd": "HAND_RIGHT"
+								}, {
+									"InjuredBodyPartCd": "HAND_LEFT"
+								}, {
+									"InjuredBodyPartCd": "LEG_RIGHT"
+								}]
+							}
+                        },
+						{
+						    "VictimNatureofInjuryInfo": {
+								"VictimNatureofInjuryCd": "OTHERS",
+								"VictimNatureofInjuryOthers": "Ouch, it hurts",
+								"InjuredBodyPartsList": [{
+									"InjuredBodyPartCd": "HAND_RIGHT"
+								}, {
+									"InjuredBodyPartCd": "LEG_RIGHT"
+								}]
+							}
+						}],
+						"VictimManualWorkerInd": "Y",
+						"VictimManualWorkPercentage": "15",
+						"VictimDeathInd": "Y",
+						"NotifiableOccupationalDiseaseCd": "999",
+						"NotifiableOccupationalDiseaseDesc": "Others",
+						"NotifiableOccupationalDiseaseOthersDesc": "iWork Stress",
+						"pxSubscript": "Initial"
+					}
+				},
+				"InsurerDetails": {
+					"insurerName": "A",
+					"insurerUEN": "53155753K"
+				}
+			},
+            {
+			"CaseDetails": {
+				"victimID": "333444",
+				"insurancePolicyNumber": "IR-API1-02",
+				"WICAInsurerInd": "F",
+				"RegistrationTypeCd": "OD-PI"
+			},
+			"CustomerDetails": {
+				"IdTypeCd": "N",
+				"IdNo": "S8888888Z",
+				"FullName": "EMPLOYEE 25-SEP #5 - 2",
+				"BirthDt": "19990101",
+				"GenderCd": "M",
+				"PreferredLanguageCd": "English",
+				"ContactNo": "81230123",
+				"EmailAddr": "hi@hi.hi"
+			},
+			"RegisteredAddr": {
+				"AddressTypeCd": "S",
+				"IsLocalAddrInd": "Y",
+				"AddrLine1Txt": "Address Line Number 2 damn",
+				"PostalCd": "087123",
+				"StreetName": "Geylang Bharu Lane",
+				"BuildingName": "MOM School Officer",
+				"BlockHouseNo": "3A",
+				"FloorNo": "03",
+				"UnitNo": "123"
+			},
+			"ClaimDetails": {
+				"Initial": {
+					"WICAInsurerRoutingInd": "N",
+					"CommencementOfEmpDt": "20230925",
+					"AverageMonthlyEarningsAmt": "1888",
+					"MedicalLeaveDur": "5",
+					"LightDutyDur": "10",
+					"Hosptialised24HoursInd": "N",
+					"OccupationalDiseaseDesc": "This is the description of the occupational disease",
+					"ODConsultationDate": "20230924",
+					"OccupationTxt": "IWORK BUSINESS ANALYST",
+					"MedicalInstitutionList": [{
+						"MedicalInstitutionUEN": "200717564H",
+						"MedicalInstitutionName": "KHOO TECK PUAT HOSPITAL"
+					}],
+					"VictimNatureofInjuryList": [{
+							"VictimNatureofInjuryInfo": {
+								"VictimNatureofInjuryCd": "CUT_BRUISES",
+								"InjuredBodyPartsList": [{
+									"InjuredBodyPartCd": "HAND_RIGHT"
+								}, {
+									"InjuredBodyPartCd": "HAND_LEFT"
+								}, {
+									"InjuredBodyPartCd": "LEG_RIGHT"
+								}]
+							}
+                        },
+						{
+						    "VictimNatureofInjuryInfo": {
+								"VictimNatureofInjuryCd": "OTHERS",
+								"VictimNatureofInjuryOthers": "Ouch, it hurts",
+								"InjuredBodyPartsList": [{
+									"InjuredBodyPartCd": "HAND_RIGHT"
+								}, {
+									"InjuredBodyPartCd": "LEG_RIGHT"
+								}]
+							}
+						}],
+						"VictimManualWorkerInd": "Y",
+						"VictimManualWorkPercentage": "15",
+						"VictimDeathInd": "Y",
+						"NotifiableOccupationalDiseaseCd": "999",
+						"NotifiableOccupationalDiseaseDesc": "Others",
+						"NotifiableOccupationalDiseaseOthersDesc": "iWork Stress",
+						"pxSubscript": "Initial"
+					}
+				},
+				"InsurerDetails": {
+					"insurerName": "P&I Club",
+					"insurerUEN": "T99ZY3425L"
+				}
+			}],
+		"iOSHDocumentList": [{
+			"eSubDocID": "300000000000096260",
+			"fileName": "AC230412299.PDF",
+			"docType": "SUBMISSION_REQUEST_FORM"
+		}]
+	}
