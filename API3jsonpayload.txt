@@ -1,0 +1,66 @@
+{
+	"BusinessCaseID": "XXX",
+	"iOSHCMIRefNo": "Doesnt Matter #1",
+	"CMIProcessingDetails": {
+		"OfficerName": "Bob",
+		"OfficerID": "S8888888Z",
+		"OfficerEmailDesc": "jia.wei.liu@accenture.com"
+	},
+	"CMIOutcomeDetails": {
+		"AssignedOfficer": "Big Boss",
+		"SettlementOutcomeDt": "20231005",
+		"AdmissibilityOutcomeDesc": "Admissible",
+		"AdmissibilityOutcomeCd": "T",
+		"SettlementCaseAssessmentTxt": "For Claims Processing",
+		"SettlementCaseAssessmentCd": "1",
+		"remarks": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		"RefusedClaimRemarks": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		"RefusedClaimReasonDesc": "No compensation payable as employee's injury was not caused by accident arising out of and in the course of employment"
+	},
+	"CMIClaimDetails": {
+		"CMIOutcome": {
+			"CorrectPolicyNo": "Policy888",
+			"InsurerName": "I Love iWork",
+			"InsurerUEN": "55531800B",
+			"AccidentDt": "20230808",
+			"VictimNatureofInjuryList": [{
+				"VictimNatureofInjuryInfo": {
+					"VictimNatureofInjuryCd": "CUT_BRUISES",
+					"InjuredBodyPartsList": [{
+						"InjuredBodyPartCd": "HAND_RIGHT"
+					}, {
+						"InjuredBodyPartCd": "HAND_LEFT"
+					}, {
+						"InjuredBodyPartCd": "LEG_RIGHT"
+					}]
+				}
+			},
+			{
+				"VictimNatureofInjuryInfo": {
+					"VictimNatureofInjuryCd": "OTHERS",
+					"VictimNatureofInjuryOthers": "Ouch, it hurts",
+					"InjuredBodyPartsList": [{
+						"InjuredBodyPartCd": "HAND_RIGHT"
+					}, {
+						"InjuredBodyPartCd": "LEG_RIGHT"
+					}]
+				}
+			}],
+			"admittedMesCaseCd": "",
+			"admittedMedCaseDesc": "",
+			"admittedMedCaseOther": "",
+			"AccidentDtUpdatedCd": "Y",
+			"OMRReceivedCd": "Y",
+			"pxSubscript": "CMIOutcome"
+		}
+	},
+	"eSubDocIDList": [{
+		"eSubDocID": "123456789",
+		"fileName": "Sample Document 1",
+		"docType": "iReport"
+	}, {
+		"eSubDocID": "987654321",
+		"fileName": "Sample Document 2",
+		"docType": "Medical Certificate"
+	}]
+}

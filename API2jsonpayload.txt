@@ -1,5 +1,6 @@
 {
-	"irReferenceNo": "JWTEST03OCT230000002",
+    "updateType": "D",
+	"irReferenceNo": "JWTEST03OCT230000001",
 	"groupedIRReferenceNoList": [],
 	"irReceivedDate": "20230930",
 	"irNotificationType": "AC",
@@ -118,7 +119,7 @@
 						}],
 						"VictimManualWorkerInd": "Y",
 						"VictimManualWorkPercentage": "15",
-						"VictimDeathInd": "N",
+						"VictimDeathInd": "Y",
 						"NotifiableOccupationalDiseaseCd": "999",
 						"NotifiableOccupationalDiseaseDesc": "Others",
 						"NotifiableOccupationalDiseaseOthersDesc": "iWork Stress",
@@ -198,7 +199,7 @@
 						}],
 						"VictimManualWorkerInd": "Y",
 						"VictimManualWorkPercentage": "15",
-						"VictimDeathInd": "N",
+						"VictimDeathInd": "Y",
 						"NotifiableOccupationalDiseaseCd": "999",
 						"NotifiableOccupationalDiseaseDesc": "Others",
 						"NotifiableOccupationalDiseaseOthersDesc": "iWork Stress",
@@ -215,4 +216,4 @@
 			"fileName": "AC230412299.PDF",
 			"docType": "SUBMISSION_REQUEST_FORM"
 		}]
-	}
+}
